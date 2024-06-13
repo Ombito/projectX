@@ -2,7 +2,14 @@ import React from 'react';
 
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div>
+        <h2>Blog</h2>
+        <div>
+        ├── BlogDetails.js
+│       ├── BlogList.js
+│       └── BlogSummary.js
+        </div>
+    </div>
   )
 }
 

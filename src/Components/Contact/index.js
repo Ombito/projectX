@@ -2,7 +2,13 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+        <h2>Contact</h2>
+        <div>
+        ├── ContactForm.js
+        │   │   └── ContactInfo.js
+        </div>
+    </div>
   )
 }
 
