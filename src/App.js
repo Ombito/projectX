@@ -8,12 +8,20 @@ import Footer from './Components/Footer';
 import NotFound from './Components/NotFound';
 import Portfolio from './Components/Portfolio';
 import Navbar from './Components/Navigation';
+import Blog from './Components/Blog';
+import Services from './Components/Services';
 
 function App() {
   return (
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/notFound" element={<NotFound />} />
       </Routes>
     </div>
   );
