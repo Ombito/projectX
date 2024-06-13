@@ -2,7 +2,14 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <div>
+        <h2>Services</h2>
+        <div>
+        ── ServiceDetails.js
+│   │   ├── ServiceList.js
+│   │   └── ServicesSummary.js
+        </div>
+    </div>
   )
 }
 
