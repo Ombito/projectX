@@ -4,8 +4,8 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Footer from './Components/Footer';
 import NotFound from './Components/NotFound';
-import Contact from './Components/Contact';
-import Contact from './Components/Contact';
+import Portfolio from './Components/Portfolio';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
