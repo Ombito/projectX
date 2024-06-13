@@ -5,7 +5,7 @@ import About from './Components/About';
 import Footer from './Components/Footer';
 import NotFound from './Components/NotFound';
 import Portfolio from './Components/Portfolio';
-import Navbar from './Components/Navbar';
+import Navbar from './Components/Navigation';
 
 function App() {
   return (
