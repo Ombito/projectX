@@ -1,9 +1,16 @@
 import './App.css';
+import Contact from './Components/Contact';
+import Home from './Components/Home';
+import About from './Components/About';
+import Footer from './Components/Footer';
+import NotFound from './Components/NotFound';
+import Contact from './Components/Contact';
+import Contact from './Components/Contact';
 
 function App() {
   return (
     <div className="App">
-      App
+      <Contact />
     </div>
   );
 }
