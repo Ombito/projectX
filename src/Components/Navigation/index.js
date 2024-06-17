@@ -7,10 +7,10 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen);
-    setIsDropdownOpen(!isOpen);
+    setIsMobile(!isMobile);
   };
 
   useEffect(() => {
@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
         </div>
-        <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>
+        <ul className={`nav-menu ${isMobile ? 'mobile-active' : ''}`}>
           <li className="nav-item">
             <a href="/" className="nav-link">
               Home
