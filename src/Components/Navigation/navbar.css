@@ -25,6 +25,11 @@
     display: flex;
     align-items: center;
 }
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
 .navbar-logo img {
     height: 50px;
 }
@@ -121,6 +126,9 @@
 @media screen and (max-width: 960px) {
     .navbar {
         background-color: #ff6600;
+    }
+    .navbar-container {
+        width: 100%;
     }
     .nav-menu {
         display: none;
