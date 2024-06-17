@@ -122,6 +122,9 @@
     .navbar {
         background-color: #ff6600;
     }
+    .navbar-container {
+        width: 100%;
+    }
     .nav-menu {
         display: none;
         flex-direction: column;
