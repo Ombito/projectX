@@ -9,6 +9,7 @@ const Navbar = () => {
   const dropdownRef = useRef(null);
 
   const toggleMenu = () => {
+    setIsOpen(!isOpen);
     setIsDropdownOpen(!isOpen);
   };
 
