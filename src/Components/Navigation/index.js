@@ -35,7 +35,9 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-container">
         <div className="navbar-logo">
-          <img src={logo} alt="Company Logo" />
+          <a href="/">
+            <img src={logo} alt="Company Logo" />
+          </a>
         </div>
         <div className="menu-icon" onClick={toggleMenu}>
           {isOpen ? <FaTimes /> : <FaBars />}
