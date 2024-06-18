@@ -1,17 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import './blog.css';
 
-
-const Blog = () => {
+const Blog = ({ blogsData }) => {
   const [blogs, setBlogs] = useState([]);
-
-  const BLOG_API_URL = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=12c980041394435e97d1b0c17450f7ab';
-
   
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
-        const response = await fetch(BLOG_API_URL);
+        const response = await fetch(blogsData);
         const data = await response.json();
         setBlogs(data.articles); 
       } catch (error) {
@@ -24,7 +20,7 @@ const Blog = () => {
 
   return (
     <div className="content-container">
-      <section className="section-container">
+      <div className="section-container">
         <h1>Blogs</h1>
         <div className="blog-container">
           {blogs.map((blog, index) => (
@@ -39,7 +35,7 @@ const Blog = () => {
             </div>
           ))}
         </div>
-      </section>
+      </div>
     </div>
   );
 };
