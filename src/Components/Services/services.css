@@ -49,6 +49,7 @@
     position: relative;
     overflow: hidden;
     display: flex;
+    cursor: pointer;
     align-items: center;
     justify-content: center;
     text-align: center;

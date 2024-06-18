@@ -77,7 +77,7 @@ const Navbar = () => {
                 <FaChevronDown />
               </button>
               <div className={`dropdown-content ${isDropdownOpen ? 'show-dropdown' : ''}`}>
-                <a href="/partnership">Partnership</a>
+                <a href="/partnership">Our Partners</a>
                 <a href="/blog">Blog</a>
                 <a href="/blog">Careers</a>
               </div>
