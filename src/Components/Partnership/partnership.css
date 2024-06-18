@@ -17,11 +17,12 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     justify-items: center;
-    margin: auto;
+    max-width: 1200px;
+    margin: 25px auto;
 }
 .partner-item {
     width: 100%;
-    height: 150px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;

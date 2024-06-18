@@ -1,55 +1,46 @@
 import React from 'react';
 import './partnership.css';
-import partner1Image from '../../Assets/logo1.png';
-import partner2Image from '../../Assets/logo1.png';
-import partner3Image from '../../Assets/logo1.png';
-import partner4Image from '../../Assets/logo1.png';
-import partner5Image from '../../Assets/logo1.png';
+import partner1 from '../../Assets/aws.jpg';
+import partner2 from '../../Assets/cisco.jpg';
+import partner3 from '../../Assets/huawei.jpg';
+import partner4 from '../../Assets/fortinet.jpg';
+import partner5 from '../../Assets/hp.jpg';
+import partner6 from '../../Assets/veeam.jpg';
+import partner7 from '../../Assets/microsoft.jpg';
+import partner8 from '../../Assets/odoo.jpg';
 
 const partners = [
   {
     name: 'Partner A',
-    image: partner1Image,
+    image: partner1,
   },
   {
     name: 'Partner B',
-    image: partner2Image,
+    image: partner2,
   },
   {
     name: 'Partner C',
-    image: partner3Image,
+    image: partner3,
   },
   {
     name: 'Partner D',
-    image: partner4Image,
+    image: partner4,
   },
   {
     name: 'Partner E',
-    image: partner5Image,
+    image: partner5,
   },
   {
     name: 'Partner E',
-    image: partner5Image,
+    image: partner6,
   },
   {
     name: 'Partner E',
-    image: partner5Image,
+    image: partner7,
   },
   {
     name: 'Partner E',
-    image: partner5Image,
-  },
-  {
-    name: 'Partner E',
-    image: partner5Image,
-  },
-  {
-    name: 'Partner E',
-    image: partner5Image,
-  },
-  {
-    name: 'Partner E',
-    image: partner5Image,
+    image: partner8,
   },
 ];
 
