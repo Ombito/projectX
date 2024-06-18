@@ -17,7 +17,7 @@
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     justify-items: center;
-    max-width: 1200px;
+    max-width: 1050px;
     margin: 25px auto;
 }
 .partner-item {
@@ -35,3 +35,9 @@
     padding: 10px;
 }
   
+@media screen and (max-width: 960px) {
+    .partner-item {
+        width: 100%;
+        height: 70px;
+    }
+}
