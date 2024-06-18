@@ -1,7 +1,16 @@
 import React from 'react';
 import './services.css';
-import logo1 from '../../Assets/logo1.png';
 import { Link } from 'react-router-dom';
+import logo1 from '../../Assets/logo1.png';
+import bussinessApplications from '../../Assets/bussiness-applications.jpg';
+import cloud from '../../Assets/cloud.jpg';
+import security from '../../Assets/security.jpg';
+import datacenter from '../../Assets/datacenter.jpg';
+import machineLearning from '../../Assets/machine-learning.jpg';
+import businessConsulting from '../../Assets/business-consulting.jpg';
+import networkServices from '../../Assets/network-services.jpg';
+import managedServices from '../../Assets/managed-services.jpg';
+
 
 const Services = () => {
   return (
@@ -15,7 +24,7 @@ const Services = () => {
         <p>At Milmax Systems, we are dedicated to providing outstanding services that cater to the unique needs of your business. Our team of experts works tirelessly to ensure that we deliver solutions that drive growth, enhance efficiency, and secure your operations.</p>
       </div>
       <div className="services-list">
-        <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
+        <div className="service-item" style={{ backgroundImage: `url(${bussinessApplications})` }}>
           <div className="service-content">
             <h3>Business Applications</h3>
             <p>Delivering custom software solutions to meet your business needs.</p>
@@ -24,7 +33,7 @@ const Services = () => {
             </Link>
           </div>
         </div>
-        <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
+        <div className="service-item" style={{ backgroundImage: `url(${cloud})` }}>
           <div className="service-content">
             <h3>Cloud and IT Infrastructure</h3>
             <p>Offering robust cloud solutions and IT infrastructure management.</p>
@@ -33,43 +42,7 @@ const Services = () => {
             </Link>
           </div>
         </div>
-        <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
-          <div className="service-content">
-            <h3>System Security</h3>
-            <p>Protecting your business with advanced security solutions.</p>
-            <Link to={`/services`} className="arrow-link">
-              <span>&rarr;</span>
-            </Link>
-          </div>
-        </div>
-        <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
-          <div className="service-content">
-            <h3>Data Center Services</h3>
-            <p>Ensuring optimal performance and reliability of your data centers.</p>
-            <Link to={`/services`} className="arrow-link">
-              <span>&rarr;</span>
-            </Link>
-          </div>
-        </div>
-        <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
-          <div className="service-content">
-            <h3>Network Services</h3>
-            <p>Building and maintaining efficient network systems.</p>
-            <Link to={`/services`} className="arrow-link">
-              <span>&rarr;</span>
-            </Link>
-          </div>
-        </div>
-        <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
-          <div className="service-content">
-            <h3>Managed Services</h3>
-            <p>Implementing innovative technology solutions for your business.</p>
-            <Link to={`/services`} className="arrow-link">
-              <span>&rarr;</span>
-            </Link>
-          </div>
-        </div>
-        <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
+        <div className="service-item" style={{ backgroundImage: `url(${machineLearning})` }}>
           <div className="service-content">
             <h3>AI & Machine Learning</h3>
             <p>Seamlessly integrating diverse systems for enhanced performance.</p>
@@ -78,10 +51,46 @@ const Services = () => {
             </Link>
           </div>
         </div>
-        <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
+        <div className="service-item" style={{ backgroundImage: `url(${security})` }}>
+          <div className="service-content">
+            <h3>System Security</h3>
+            <p>Protecting your business with advanced security solutions.</p>
+            <Link to={`/services`} className="arrow-link">
+              <span>&rarr;</span>
+            </Link>
+          </div>
+        </div>
+        <div className="service-item" style={{ backgroundImage: `url(${datacenter})` }}>
+          <div className="service-content">
+            <h3>Data Center Services</h3>
+            <p>Ensuring optimal performance and reliability of your data centers.</p>
+            <Link to={`/services`} className="arrow-link">
+              <span>&rarr;</span>
+            </Link>
+          </div>
+        </div>
+        <div className="service-item" style={{ backgroundImage: `url(${networkServices})` }}>
+          <div className="service-content">
+            <h3>Network Services</h3>
+            <p>Building and maintaining efficient network systems.</p>
+            <Link to={`/services`} className="arrow-link">
+              <span>&rarr;</span>
+            </Link>
+          </div>
+        </div>
+        <div className="service-item" style={{ backgroundImage: `url(${businessConsulting})` }}>
           <div className="service-content">
             <h3>Business Consulting</h3>
             <p>Providing strategic advice to drive growth and efficiency.</p>
+            <Link to={`/services`} className="arrow-link">
+              <span>&rarr;</span>
+            </Link>
+          </div>
+        </div>
+        <div className="service-item" style={{ backgroundImage: `url(${managedServices})` }}>
+          <div className="service-content">
+            <h3>Managed Services</h3>
+            <p>Implementing innovative technology solutions for your business.</p>
             <Link to={`/services`} className="arrow-link">
               <span>&rarr;</span>
             </Link>
