@@ -1,0 +1,173 @@
+.services-page {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    padding: 0 0 20px 0;
+  }
+  
+  .services-hero-section {
+    background: url('../../Assets/logo1.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin-bottom: 40px;
+  }
+  
+  .services-hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .services-hero-section p {
+    font-size: 1.5em;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+
+    /* background: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center; */
+  }  
+  .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  .service-content {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .service-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+  }
+  
+  .service-item p {
+    font-size: 1em;
+    margin: 0;
+    text-align: center;
+  }
+
+  .arrow-link {
+    display: inline-block;
+    margin-top: 10px;
+    justify-content: flex-end;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    color: #ff5733;
+    text-align: center;
+  }
+  
+  .arrow-link:hover {
+    color: yellow;
+  }
+  
+
+
+
+  
+/* 
+.services {
+    font-family: 'Arial, sans-serif';
+    color: #333;
+    padding: 20px;
+  }
+  
+  .hero-section {
+    background: url('https://via.placeholder.com/1024x400') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .hero-section p {
+    font-size: 1.5em;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-item {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    max-width: 300px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .service-content {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .service-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+  }
+  
+  .service-content p {
+    font-size: 1em;
+    margin: 0;
+  }
+   */

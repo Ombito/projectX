@@ -8,7 +8,27 @@ const Navbar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const dropdownRef = useRef(null);
   const [isMobile, setIsMobile] = useState(false);
+  const [countryFlag, setCountryFlag] = useState('');
 
+  useEffect(() => {
+    const fetchCountryFlag = async () => {
+      try {
+        const ipResponse = await fetch('https://api.ipify.org?format=json');
+        const ipData = await ipResponse.json();
+        const ipAddress = ipData.ip;
+
+        const flagResponse = await fetch(`https://api.country.is/${ipAddress}`);
+        const flagData = await flagResponse.json();
+        setCountryFlag(flagData.emoji);
+      } catch (error) {
+        console.error('Error fetching country flag:', error);
+      }
+    };
+
+    fetchCountryFlag();
+  }, []);
+  
+  
   const toggleMenu = () => {
     setIsMobile(!isMobile);
   };
@@ -59,8 +79,14 @@ const Navbar = () => {
               <div className={`dropdown-content ${isDropdownOpen ? 'show-dropdown' : ''}`}>
                 <a href="/partnership">Partnership</a>
                 <a href="/blog">Blog</a>
+                <a href="/blog">Careers</a>
               </div>
             </div>
+          </li>
+          <li className="nav-item">
+            <a href="/products" className="nav-link">
+              Products
+            </a>
           </li>
           <li className="nav-item">
             <a href="/about" className="nav-link">
@@ -71,6 +97,22 @@ const Navbar = () => {
             <a href="/contact" className="nav-link">
               Contact
             </a>
+          </li>
+          <li className="nav-item">
+          {countryFlag && (
+        <div>
+          <h2>Country Flag:</h2>
+          <div
+            style={{
+              width: '50px',
+              height: '30px',
+              background: `url(${countryFlag})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          />
+        </div>
+      )}
           </li>
           <li className="nav-item">
             <a href="/contact" className="nav-link cta-btn">
