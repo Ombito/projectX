@@ -13,6 +13,8 @@ import Blog from './Components/Blog';
 import Services from './Components/Services';
 
 function App() {
+  const BLOG_API_URL = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=12c980041394435e97d1b0c17450f7ab';
+
   return (
     <div className="App">
       <Navbar />
@@ -23,7 +25,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/partnership" element={<Partnership />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog" element={<Blog  blogsData={BLOG_API_URL} />} />
         <Route path="/notFound" element={<NotFound />} />
       </Routes>
       <Footer />
