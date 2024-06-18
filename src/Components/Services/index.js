@@ -62,7 +62,7 @@ const Services = () => {
         </div>
         <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
           <div className="service-content">
-            <h3>Tech Solutions</h3>
+            <h3>Managed Services</h3>
             <p>Implementing innovative technology solutions for your business.</p>
             <Link to={`/services`} className="arrow-link">
               <span>&rarr;</span>
@@ -71,7 +71,7 @@ const Services = () => {
         </div>
         <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
           <div className="service-content">
-            <h3>System Integration</h3>
+            <h3>AI & Machine Learning</h3>
             <p>Seamlessly integrating diverse systems for enhanced performance.</p>
             <Link to={`/services`} className="arrow-link">
               <span>&rarr;</span>
