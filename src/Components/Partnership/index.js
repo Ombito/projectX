@@ -1,55 +1,76 @@
 import React from 'react';
 import './partnership.css';
-import partner1Image from '../../Assets/logo1.png';
-import partner2Image from '../../Assets/logo1.png';
-import partner3Image from '../../Assets/logo1.png';
-import partner4Image from '../../Assets/logo1.png';
-import partner5Image from '../../Assets/logo1.png';
+import partner1 from '../../Assets/aws.jpg';
+import partner2 from '../../Assets/cisco.jpg';
+import partner3 from '../../Assets/huawei.jpg';
+import partner4 from '../../Assets/fortinet1.jpg';
+import partner5 from '../../Assets/microsoft.jpg';
+import partner6 from '../../Assets/veeam.jpg';
+import partner7 from '../../Assets/hp.jpg';
+import partner8 from '../../Assets/odoo.jpg';
+import partner9 from '../../Assets/sophos.jpg';
+import partner10 from '../../Assets/lenovo.jpg';
+import partner11 from '../../Assets/mcafee.jpg';
+import partner12 from '../../Assets/hikvision.jpg';
+import partner13 from '../../Assets/redhat.png';
+import partner14 from '../../Assets/dell.jpg';
 
 const partners = [
   {
-    name: 'Partner A',
-    image: partner1Image,
+    name: 'AWS',
+    image: partner1,
   },
   {
-    name: 'Partner B',
-    image: partner2Image,
+    name: 'Cisco',
+    image: partner2,
   },
   {
-    name: 'Partner C',
-    image: partner3Image,
+    name: 'Huawei',
+    image: partner3,
   },
   {
-    name: 'Partner D',
-    image: partner4Image,
+    name: 'Fortinet',
+    image: partner4,
   },
   {
-    name: 'Partner E',
-    image: partner5Image,
+    name: 'Microsoft',
+    image: partner5,
   },
   {
-    name: 'Partner E',
-    image: partner5Image,
+    name: 'Veeam',
+    image: partner6,
   },
   {
-    name: 'Partner E',
-    image: partner5Image,
+    name: 'HP',
+    image: partner7,
   },
   {
-    name: 'Partner E',
-    image: partner5Image,
+    name: 'Odoo',
+    image: partner8,
   },
   {
-    name: 'Partner E',
-    image: partner5Image,
+    name: 'Sophos',
+    image: partner9,
   },
   {
-    name: 'Partner E',
-    image: partner5Image,
+    name: 'Lenovo',
+    image: partner10,
   },
   {
-    name: 'Partner E',
-    image: partner5Image,
+    name: 'McAfee',
+    image: partner11,
+  },
+  {
+    name: 'Hikvision',
+    image: partner12,
+  },
+  {
+    name: 'RedHat',
+    image: partner13,
+  },
+  {
+    name: 'Dell',
+    image: partner14,
   },
 ];
 
