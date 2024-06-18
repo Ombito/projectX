@@ -1,6 +1,5 @@
 .services-page {
     font-family: 'Arial, sans-serif';
-    color: #333;
     padding: 0 0 20px 0;
   }
   
@@ -22,11 +21,30 @@
     font-size: 1.5em;
   }
   
+
+  .intro-section {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .intro-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .intro-section p {
+    font-size: 1.2em;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+
   .services-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
+    padding: 0 20px;
   }
   
   .service-item {
@@ -37,7 +55,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: calc(33.333% - 20px);
     max-width: 300px;
-    height: 200px;
+    height: 230px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -45,15 +63,6 @@
     justify-content: center;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
-
-
-    /* background: #f8f8f8;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 20px;
-    width: 300px;
-    text-align: center; */
   }  
   .service-item:hover {
     transform: translateY(-10px);
@@ -78,25 +87,49 @@
     margin: 0;
     text-align: center;
   }
-
   .arrow-link {
-    display: inline-block;
-    margin-top: 10px;
-    justify-content: flex-end;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
     font-size: 1.5em;
-    color: white;
+    color: #ff5733;
     text-decoration: none;
     transition: color 0.3s;
-    color: #ff5733;
-    text-align: center;
   }
+
   
   .arrow-link:hover {
     color: yellow;
   }
   
 
-
+  .faq-section {
+    max-width: 1200px;
+    margin: 25px auto;
+    background: #f9f9f9;
+    padding: 10px 40px;
+    text-align: left;
+  }
+  
+  .faq-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .faq {
+    margin-bottom: 20px;
+  }
+  
+  .faq h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .faq p {
+    font-size: 1.2em;
+    margin: 0;
+  }
 
   
 /* 

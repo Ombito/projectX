@@ -10,7 +10,10 @@ const Services = () => {
         <h1>Our Services</h1>
         <p>Delivering Excellence in Every Solution</p>
       </div>
-
+      <div className="intro-section">
+        <h2>Welcome to Hazel Systems</h2>
+        <p>At Hazel Systems, we are dedicated to providing top-notch services that cater to the unique needs of your business. Our team of experts works tirelessly to ensure that we deliver solutions that drive growth, enhance efficiency, and secure your operations.</p>
+      </div>
       <div className="services-list">
         <div className="service-item" style={{ backgroundImage: `url(${logo1})` }}>
           <div className="service-content">
@@ -83,6 +86,29 @@ const Services = () => {
               <span>&rarr;</span>
             </Link>
           </div>
+        </div>
+      </div>
+      <div className="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div className="faq">
+          <h3>What services do you offer?</h3>
+          <p>We offer a range of services including application services, business consulting, cloud and IT infrastructure, cybersecurity, data center services, network services, tech solutions, and system integration.</p>
+        </div>
+        <div className="faq">
+          <h3>Are your services customizable?</h3>
+          <p>Yes, we tailor our solutions to meet the specific needs and requirements of each client. Whether you need a complete overhaul or targeted improvements, we can help.</p>
+        </div>
+        <div className="faq">
+          <h3>What industries do you specialize in?</h3>
+          <p>We specialize in serving a wide range of industries including technology, finance, healthcare, and retail among others. Our expertise allows us to adapt our solutions to various business environments.</p>
+        </div>
+        <div className="faq">
+          <h3>Do you offer ongoing support?</h3>
+          <p>Absolutely, we provide comprehensive support and maintenance services to ensure that your systems continue to operate at peak performance.</p>
+        </div>
+        <div className="faq">
+          <h3>How can I get in touch?</h3>
+          <p>You can reach us through the contact form, or email us at contact@hazelsystems.com</p>
         </div>
       </div>
     </div>
