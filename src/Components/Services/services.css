@@ -3,7 +3,7 @@
     padding: 0 0 20px 0;
 }
 .services-hero-section {
-    background: url('../../Assets/logo1.png') no-repeat center center;
+    background: url('../../Assets/service-banner1.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -81,6 +81,7 @@
     bottom: 10px;
     right: 10px;
     font-size: 1.5em;
+    font-weight: bolder;
     color: #ff5733;
     text-decoration: none;
     transition: color 0.3s;
