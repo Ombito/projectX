@@ -1,53 +1,43 @@
 .services-page {
     font-family: 'Arial, sans-serif';
     padding: 0 0 20px 0;
-  }
-  
-  .services-hero-section {
+}
+.services-hero-section {
     background: url('../../Assets/logo1.png') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
     padding: 60px 20px;
     margin-bottom: 40px;
-  }
-  
-  .services-hero-section h1 {
+}
+.services-hero-section h1 {
     font-size: 3em;
     margin-bottom: 0.5em;
-  }
-  
-  .services-hero-section p {
+}
+.services-hero-section p {
     font-size: 1.5em;
-  }
-  
-
-  .intro-section {
+}
+.intro-section {
     text-align: center;
     margin: 20px 0;
-  }
-  
-  .intro-section h2 {
+}
+.intro-section h2 {
     font-size: 2em;
     margin-bottom: 20px;
-  }
-  
-  .intro-section p {
+}
+.intro-section p {
     font-size: 1.2em;
     max-width: 1000px;
     margin: 0 auto;
-  }
-
-
-  .services-list {
+}
+.services-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 0 20px;
-  }
-  
-  .service-item {
+}
+.service-item {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -63,31 +53,30 @@
     justify-content: center;
     text-align: center;
     transition: transform 0.3s, box-shadow 0.3s;
-  }  
-  .service-item:hover {
-    transform: translateY(-10px);
+}  
+.service-item:hover {
+    transform: scale(0.95);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  }
-  .service-content {
+}
+.service-content {
     background: rgba(0, 0, 0, 0.3);
     color: white;
     padding: 10px 20px;
     border-radius: 8px;
     width: 100%;
     margin-top: 50px;
-  }
-  .service-item h3 {
+}
+.service-item h3 {
     font-size: 1.5em;
     margin-bottom: 0.5em;
     text-align: center;
-  }
-  
-  .service-item p {
+}
+.service-item p {
     font-size: 1em;
     margin: 0;
     text-align: center;
-  }
-  .arrow-link {
+}
+.arrow-link {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -95,112 +84,32 @@
     color: #ff5733;
     text-decoration: none;
     transition: color 0.3s;
-  }
-
-  
-  .arrow-link:hover {
+}
+.arrow-link:hover {
     color: yellow;
-  }
-  
-
-  .faq-section {
+}
+.faq-section {
     max-width: 1200px;
     margin: 25px auto;
     background: #f9f9f9;
     padding: 10px 40px;
     text-align: left;
-  }
-  
-  .faq-section h2 {
+}
+.faq-section h2 {
     font-size: 2em;
     margin-bottom: 20px;
     text-align: center;
-  }
-  
-  .faq {
+}
+.faq {
     margin-bottom: 20px;
-  }
-  
-  .faq h3 {
+}
+.faq h3 {
     font-size: 1.5em;
     margin-bottom: 10px;
-  }
-  
-  .faq p {
+}
+.faq p {
     font-size: 1.2em;
     margin: 0;
-  }
+}
 
   
-/* 
-.services {
-    font-family: 'Arial, sans-serif';
-    color: #333;
-    padding: 20px;
-  }
-  
-  .hero-section {
-    background: url('https://via.placeholder.com/1024x400') no-repeat center center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 60px 20px;
-  }
-  
-  .hero-section h1 {
-    font-size: 3em;
-    margin-bottom: 0.5em;
-  }
-  
-  .hero-section p {
-    font-size: 1.5em;
-  }
-  
-  .services-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .service-item {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: calc(33.333% - 20px);
-    max-width: 300px;
-    height: 200px;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .service-item:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
-  }
-  
-  .service-content {
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    width: 100%;
-  }
-  
-  .service-content h3 {
-    font-size: 1.5em;
-    margin-bottom: 0.5em;
-  }
-  
-  .service-content p {
-    font-size: 1em;
-    margin: 0;
-  }
-   */
