@@ -1,60 +1,45 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import './blog.css';
 
-const Blog = () => {
-  const [blogPosts, setBlogPosts] = useState([]);
-  const [newsArticles, setNewsArticles] = useState([]);
 
-  useEffect(() => {
-    // Fetch blog posts from the API
-    fetch('https://jsonplaceholder.typicode.com/posts')
-      .then(response => response.json())
-      .then(data => setBlogPosts(data))
-      .catch(error => console.error('Error fetching blog posts:', error));
+const Blog = () => {
+  const [blogs, setBlogs] = useState([]);
+
+  const BLOG_API_URL = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=12c980041394435e97d1b0c17450f7ab';
+
   
-    // Fetch news articles from the API
-    fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_API_KEY')
-      .then(response => response.json())
-      .then(data => setNewsArticles(data.articles))
-      .catch(error => console.error('Error fetching news articles:', error));
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      try {
+        const response = await fetch(BLOG_API_URL);
+        const data = await response.json();
+        setBlogs(data.articles); 
+      } catch (error) {
+        console.error('Error fetching blogs:', error);
+      }
+    };
+
+    fetchBlogs();
   }, []);
 
   return (
-    <div className="blog-page">
-      <header className="header">
-        <h1>Our Blog</h1>
-      </header>
-
-      <main>
-        <section className="blog-section">
-          <h2>Latest Blog Posts</h2>
-          <div className="blog-posts">
-            {blogPosts.map(post => (
-              <div key={post.id} className="blog-post">
-                <h3>{post.title}</h3>
-                <p>{post.body}</p>
+    <div className="content-container">
+      <section className="section-container">
+        <h1>Blogs</h1>
+        <div className="blog-container">
+          {blogs.map((blog, index) => (
+            <div className="card" key={index}>
+              <img src={blog.urlToImage} alt={blog.title} className="card-image" />
+              <div className="card-content">
+                <h3>{blog.title}</h3>
+                <p className="card-author">By {blog.author} | {new Date(blog.publishedAt).toLocaleDateString()}</p>
+                <p>{blog.description}</p>
+                <a href={blog.url} target="_blank" rel="noopener noreferrer" className="read-more-link">Read more</a>
               </div>
-            ))}
-          </div>
-        </section>
-
-        <section className="news-section">
-          <h2>Latest News</h2>
-          <div className="news-articles">
-            {newsArticles.map((article, index) => (
-              <div key={index} className="news-article">
-                <img src={article.urlToImage} alt={article.title} />
-                <h3>{article.title}</h3>
-                <p>{article.description}</p>
-              </div>
-            ))}
-          </div>
-        </section>
-      </main>
-
-      <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} Your Company. All rights reserved.</p>
-      </footer>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 };
