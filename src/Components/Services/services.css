@@ -3,7 +3,7 @@
     padding: 0 0 20px 0;
 }
 .services-hero-section {
-    background: url('../../Assets/service-banner1.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../Assets/service-banner1.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;

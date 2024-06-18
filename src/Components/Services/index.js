@@ -20,8 +20,8 @@ const Services = () => {
         <p>Delivering Excellence in Every Solution</p>
       </div>
       <div className="intro-section">
-        <h2>Welcome to Milmax Systems</h2>
-        <p>At Milmax Systems, we are dedicated to providing outstanding services that cater to the unique needs of your business. Our team of experts works tirelessly to ensure that we deliver solutions that drive growth, enhance efficiency, and secure your operations.</p>
+        <h2>What we do</h2>
+        <p>We are dedicated to providing outstanding services that cater to the unique needs of your business. Our team of experts works tirelessly to ensure that we deliver solutions that drive growth, enhance efficiency, and secure your operations.</p>
       </div>
       <div className="services-list">
         <div className="service-item" style={{ backgroundImage: `url(${bussinessApplications})` }}>
