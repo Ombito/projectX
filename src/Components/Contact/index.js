@@ -15,13 +15,6 @@ const Contact = () => {
     console.log('Message:', message);
   };
 
-  const defaultProps = {
-    center: {
-      lat: 40.730610,
-      lng: -73.935242
-    },
-    zoom: 11
-  };
 
   return (
     <div className="contact-form-container">
