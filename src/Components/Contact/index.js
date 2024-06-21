@@ -25,9 +25,9 @@ const Contact = () => {
 
   return (
     <div className="contact-form-container">
+      <h2>Get in Touch</h2>
       <div className="contact-form">
-        <h2>Get in Touch</h2>
-        <form onSubmit={handleSubmit}>
+        <form className="get-in-touch" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="name">Name:</label>
             <input
@@ -61,6 +61,12 @@ const Contact = () => {
             Send Message
           </button>
         </form>
+        <div className="contact-details">
+          <h2>Contact Details</h2>
+          <p>Email: <a href="mailto:milmax-systems@gmail.com">contact@milmax-systems.com</a></p>
+          <p>Phone: +254 (721) 857-213</p>
+          <p>Office Hours: Monday - Friday, 9:00 AM - 5:00 PM</p>
+        </div>
       </div>
       <div className="contact-map">
         <iframe
