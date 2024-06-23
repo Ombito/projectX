@@ -54,25 +54,31 @@ const About = () => {
                 <div className="about-column">
                   <h2>Core Competencies</h2>
                   <p>With expertise in Hazel Systems excels in delivering tailored solutions that optimize business processes and drive efficiency.</p>
-                  <Link to="/services" className="view-services-btn">View Services</Link>
+                  <Link to="/services" className="view-services-btn">VIEW SERVICES</Link>
                 </div>
                 <div className="about-column">
                   <img src={Image} alt="image" className="core-competencies-image" />
                 </div>
               </div>
-              <h2>Client Testimonials</h2>
-              <h2>Our Team</h2>
-              <p>Meet the dedicated professionals behind Hazel Systems. Our team consists of experts with diverse backgrounds and extensive experience in system integration, ensuring that we deliver superior solutions tailored to our clients' needs.</p>
-                    
-              <h2>Our Achievements</h2>
-              <p>Throughout our journey, Hazel Systems has achieved significant milestones and received recognition for our outstanding contributions to system integration. We are proud to have successfully implemented solutions for leading companies across various industries.</p>
-            </div>
-                <div className="about-image">
-                    <img src={Image} alt="About Hazel Systems" />
+              <div className="join-team-container">
+                <div className="careers-image">
+                  <img src={Image} alt="image" className="image" />
                 </div>
+                <div className="content-container">
+                  <h2 className="heading">Join Our Team</h2>
+                  <p className="paragraph">
+                    Join our dedicated team of professionals behind Hazel Systems. Our team
+                    consists of experts with diverse backgrounds and extensive experience in
+                    system integration, ensuring that we deliver superior solutions tailored
+                    to our clients' needs.
+                  </p>
+                  <button className="careers-btn" onClick={() => window.location.href = '/careers'}>EXPLORE CAREERS</button>
+                </div>
+              </div>     
             </div>
+          </div>
         </div>
     );
-};
+  };
 
 export default About;

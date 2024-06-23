@@ -115,14 +115,6 @@
   }
   
   .view-services-btn {
-    /* padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    background-color: #4CAF50;
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer; */
-
     display: inline-block;
   padding: 10px 20px;
   border: none;
@@ -153,6 +145,57 @@
 
 
 
+
+
+.join-team-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .careers-image {
+    flex: 1;
+    max-width: 400px;
+    margin-right: 40px;
+  }
+  
+  .image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content-container {
+    flex: 2;
+  }
+  
+  .heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  .careers-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .careers-btn:hover {
+    background-color: #3e8e41;
+  }
 
 
 
