@@ -56,7 +56,7 @@ const Contact = () => {
         </form>
         <div className="contact-details">
           <h2>Contact Details</h2>
-          <p>Email: <a href="mailto:milmax-systems@gmail.com">contact@milmax-systems.com</a></p>
+          <p>Email: <a href="mailto:milmax-systems@gmail.com">info@milmaxsystems.com</a></p>
           <p>Phone: +254 (721) 857-213</p>
           <p>Office Hours: Monday - Friday, 9:00 AM - 5:00 PM</p>
         </div>
