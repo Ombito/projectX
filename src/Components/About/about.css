@@ -92,6 +92,43 @@
 }
 
 
+.about-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .about-column {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-column h2 {
+    margin-top: 0;
+  }
+  
+  .core-competencies-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .view-services-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .view-services-btn:hover {
+    background-color: #3e8e41;
+  }
+
+
+
 
 .about-image {
     flex: 1;

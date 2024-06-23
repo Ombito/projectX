@@ -48,15 +48,16 @@ const About = () => {
                   </div>
                 </div>
               </div>
-              <div>
-                <div>
+              <div className="about-row">
+                <div className="about-column">
                   <h2>Core Competencies</h2>
-                  <p>With expertise in [list core competencies], Hazel Systems excels in delivering tailored solutions that optimize business processes and drive efficiency.</p>
-                  <button>View Services</button>
+                  <p>With expertise in Hazel Systems excels in delivering tailored solutions that optimize business processes and drive efficiency.</p>
+                  <button className="view-services-btn">View Services</button>
                 </div>
-                <img src={Image} alt="Company logo" />
+                <div className="about-column">
+                  <img src={Image} alt="image" className="core-competencies-image" />
+                </div>
               </div>
-
               <h2>Client Testimonials</h2>
               <h2>Our Team</h2>
               <p>Meet the dedicated professionals behind Hazel Systems. Our team consists of experts with diverse backgrounds and extensive experience in system integration, ensuring that we deliver superior solutions tailored to our clients' needs.</p>
