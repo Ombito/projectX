@@ -115,12 +115,22 @@
   }
   
   .view-services-btn {
-    padding: 10px 20px;
+    /* padding: 10px 20px;
     border: none;
     border-radius: 5px;
     background-color: #4CAF50;
+    text-decoration: none;
     color: #fff;
-    cursor: pointer;
+    cursor: pointer; */
+
+    display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
   }
   
   .view-services-btn:hover {

@@ -1,13 +1,15 @@
 import React from 'react';
 import './about.css';
+import Contact from '../Contact';
 import Image from '../../Assets/aws.jpg';
+import { Link } from 'react-router-dom';
+
 
 const About = () => {
     return (
         <div className="about-container">
           <div className="about-header">
             <h1>About Us</h1>
-            <p>Learn more about our mission, values, team, and achievements.</p>
           </div>
           <div className="about-content">
             <div className="about-text">
@@ -52,7 +54,7 @@ const About = () => {
                 <div className="about-column">
                   <h2>Core Competencies</h2>
                   <p>With expertise in Hazel Systems excels in delivering tailored solutions that optimize business processes and drive efficiency.</p>
-                  <button className="view-services-btn">View Services</button>
+                  <Link to="/services" className="view-services-btn">View Services</Link>
                 </div>
                 <div className="about-column">
                   <img src={Image} alt="image" className="core-competencies-image" />
