@@ -5,83 +5,62 @@
     max-width: 1200px;
     margin: auto;
 }
-
 .about-header {
     text-align: center;
-    margin-bottom: 3rem;
 }
-
 .about-header h1 {
     font-size: 3rem;
 }
-
-.about-header p {
-    font-size: 1.5rem;
-    color: #666;
-}
-
 .about-content {
     gap: 2rem;
     justify-content: center;
     align-items: flex-start;
 }
-
 .about-text {
     flex: 1;
     max-width: 1200px;
 }
-
 .about-text h3 {
     font-size: 2.5rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
     color: #2c3e50;
 }
-
 .about-text p {
     line-height: 1.6;
 }
-
 .about-text ul {
     list-style-type: disc;
     padding-left: 2rem;
 }
-
 .about-text li {
     margin-bottom: 1rem;
 }
-
-
 .clients-container {
     padding: 2rem 0;
     text-align: center;
 }
-
 .clients-container h3 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
 }
-
 .clients-logos {
     display: flex;
     overflow: hidden;
     position: relative;
 }
-
 .logo-strip {
     display: flex;
     animation: scroll 20s linear infinite;
 }
-
 .clients-logos img {
     height: 100px;
     margin-right: 2rem;
     transition: transform 0.2s;
 }
-
 .clients-logos img:hover {
     transform: scale(1.1);
 }
-
 @keyframes scroll {
     0% {
         transform: translateX(0);
@@ -90,31 +69,25 @@
         transform: translateX(-100%);
     }
 }
-
-
 .about-row {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 40px;
-  }
-  
-  .about-column {
+}
+.about-column {
     flex: 1;
     padding: 20px;
-  }
-  
-  .about-column h3 {
+}
+.about-column h3 {
     margin-top: 0;
-  }
-  
-  .core-competencies-image {
+}
+.core-competencies-image {
     max-width: 100%;
     height: auto;
-  }
-  
-  .view-services-btn {
+}
+.view-services-btn {
     display: inline-block;
   padding: 10px 20px;
   border: none;
@@ -123,30 +96,19 @@
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-  }
-  
-  .view-services-btn:hover {
+}
+.view-services-btn:hover {
     background-color: #3e8e41;
-  }
-
-
-
-
+}
 .about-image {
     flex: 1;
     max-width: 400px;
 }
-
 .about-image img {
     width: 100%;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
-
-
-
-
 .join-team-container {
     display: flex;
     flex-direction: row;
@@ -154,9 +116,8 @@
     /* align-items: center; */
     padding: 20px;
     font-family: Arial, sans-serif;
-  }
-  
-  .careers-image {
+}
+.careers-image {
     flex: 1;
     max-width: 400px;
     margin-right: 40px;
