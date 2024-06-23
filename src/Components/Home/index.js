@@ -16,6 +16,7 @@ const Home = () => {
                 <header className="video-header">
                     <h1>Welcome to Hazel Systems</h1>
                     <p>Your trusted partner in system integration</p>
+                    <p>Hazel Systems is a cutting-edge technology company specializing in system integration. Our mission is to streamline operations and enhance customer experiences by connecting disparate systems and ensuring seamless data flow.</p>
                 </header>
             </div>
             <div className="home-hero-div">
