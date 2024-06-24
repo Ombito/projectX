@@ -3,6 +3,10 @@ import './home.css';
 import Partnership from '../Partnership';
 import video from '../../Assets/banner.mp4';
 import image from '../../Assets/aws.jpg';
+import homeServices from '../../Assets/home-services.jpeg';
+import homeTeam from '../../Assets/hometeam.jpeg';
+import quality from '../../Assets/quality.jpeg';
+import support from '../../Assets/support.jpeg';
 
 
 const Home = () => {
@@ -22,7 +26,7 @@ const Home = () => {
             <div className="home-hero-div">
                 <section className="intro">
                     <div className="intro-content">
-                        <img src={image} alt="Integration Solutions" />
+                        <img src={homeServices} alt="Integration Solutions" />
                         <div>
                             <p>At Hazel Systems, we specialize in providing cutting-edge system integration solutions to streamline your operations and enhance productivity. Our team of experts is dedicated to delivering customized services that meet your unique needs.</p>
                             <p>Explore our wide range of services and discover how we can help you achieve seamless integration across your systems.</p>
@@ -33,17 +37,17 @@ const Home = () => {
                     <h2>Why Choose Us</h2>
                     <div className="reasons">
                         <div className="reason">
-                            <img src={image} alt="Experience" />
+                            <img src={homeTeam} alt="Experience" />
                             <h3>Experienced Team</h3>
                             <p>Our team has years of experience in delivering successful integration projects.</p>
                         </div>
                         <div className="reason">
-                            <img src={image} alt="Quality" />
+                            <img src={quality} alt="Quality" />
                             <h3>Quality Assurance</h3>
                             <p>We ensure high-quality solutions through rigorous testing and quality control.</p>
                         </div>
                         <div className="reason">
-                            <img src={image} alt="Support" />
+                            <img src={support} alt="Support" />
                             <h3>24/7 Support</h3>
                             <p>Our support team is available around the clock to assist you with any issues.</p>
                         </div>
