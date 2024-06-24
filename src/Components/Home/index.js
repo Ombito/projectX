@@ -7,7 +7,10 @@ import homeServices from '../../Assets/home-services.jpeg';
 import homeTeam from '../../Assets/hometeam.jpeg';
 import quality from '../../Assets/quality.jpeg';
 import support from '../../Assets/support.jpeg';
-
+import consultation from '../../Assets/consultation.png';
+import planning from '../../Assets/planning.jpeg';
+import implementation from '../../Assets/implementation.jpeg';
+import supportHome from '../../Assets/support-home.jpeg';
 
 const Home = () => {
     return (
@@ -37,14 +40,14 @@ const Home = () => {
                     <h2>Why Choose Us</h2>
                     <div className="reasons">
                         <div className="reason">
-                            <img src={homeTeam} alt="Experience" />
-                            <h3>Experienced Team</h3>
-                            <p>Our team has years of experience in delivering successful integration projects.</p>
-                        </div>
-                        <div className="reason">
                             <img src={quality} alt="Quality" />
                             <h3>Quality Assurance</h3>
                             <p>We ensure high-quality solutions through rigorous testing and quality control.</p>
+                        </div>
+                        <div className="reason">
+                            <img src={homeTeam} alt="Experience" />
+                            <h3>Experienced Team</h3>
+                            <p>Our team has years of experience in delivering successful integration projects.</p>
                         </div>
                         <div className="reason">
                             <img src={support} alt="Support" />
@@ -57,22 +60,22 @@ const Home = () => {
                     <h2>Our Process</h2>
                     <div className="process-steps">
                         <div className="process-step">
-                            <img src={image} alt="Consultation" />
+                            <img src={consultation} alt="Consultation" />
                             <h3>Consultation</h3>
                             <p>We start with understanding your needs and requirements to tailor our solutions.</p>
                         </div>
                         <div className="process-step">
-                            <img src={image} alt="Planning" />
+                            <img src={planning} alt="Planning" />
                             <h3>Planning</h3>
                             <p>Our team creates a detailed plan to ensure smooth and effective integration.</p>
                         </div>
                         <div className="process-step">
-                            <img src={image} alt="Implementation" />
+                            <img src={implementation} alt="Implementation" />
                             <h3>Implementation</h3>
                             <p>We implement the solutions efficiently with minimal disruption to your operations.</p>
                         </div>
                         <div className="process-step">
-                            <img src={image} alt="Support" />
+                            <img src={supportHome} alt="Support" />
                             <h3>Support</h3>
                             <p>We provide ongoing support to ensure everything runs smoothly post-integration.</p>
                         </div>

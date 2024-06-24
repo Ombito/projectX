@@ -1,10 +1,9 @@
 import React, { useState }  from 'react';
 import './about.css';
-import Image from '../../Assets/aws.jpg';
 import { Link } from 'react-router-dom';
 import usiu from '../../Assets/usiu.jpeg';
 import ncba from '../../Assets/ncba.jpeg';
-import mombasahospital from '../../Assets/mombasacounty.jpeg';
+import mombasahospital from '../../Assets/mombasahospital.jpeg';
 import mombasacounty from '../../Assets/mombasacounty.jpeg';
 import ktda from '../../Assets/ktda.png';
 import kenyarailways from '../../Assets/kenyarailways.png';
