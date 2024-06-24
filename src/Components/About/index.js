@@ -2,7 +2,17 @@ import React, { useState }  from 'react';
 import './about.css';
 import Image from '../../Assets/aws.jpg';
 import { Link } from 'react-router-dom';
-
+import usiu from '../../Assets/usiu.jpeg';
+import ncba from '../../Assets/ncba.jpeg';
+import mombasahospital from '../../Assets/mombasacounty.jpeg';
+import mombasacounty from '../../Assets/mombasacounty.jpeg';
+import ktda from '../../Assets/ktda.png';
+import kenyarailways from '../../Assets/kenyarailways.png';
+import kabrassugar from '../../Assets/kabrassugar.png';
+import familybank from '../../Assets/familybank.jpeg';
+import embucounty from '../../Assets/embucounty.jpeg';
+import services from '../../Assets/cloud.jpg';
+import team from '../../Assets/team.jpeg';
 
 const About = () => {
   const [name, setName] = useState('');
@@ -39,26 +49,26 @@ const About = () => {
                 <h3>Our Clients</h3>
                 <div className="clients-logos">
                   <div className="logo-strip">
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
+                    <img src={usiu} alt="Company logo" />
+                    <img src={ktda} alt="Company logo" />
+                    <img src={mombasacounty} alt="Company logo" />
+                    <img src={ncba} alt="Company logo" />
+                    <img src={kabrassugar} alt="Company logo" />
+                    <img src={kenyarailways} alt="Company logo" />
+                    <img src={mombasahospital} alt="Company logo" />
+                    <img src={embucounty} alt="Company logo" />
+                    <img src={familybank} alt="Company logo" />
                   </div>
                   <div className="logo-strip">
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
-                    <img src={Image} alt="Company logo" />
+                    <img src={usiu} alt="Company logo" />
+                    <img src={ktda} alt="Company logo" />
+                    <img src={mombasacounty} alt="Company logo" />
+                    <img src={ncba} alt="Company logo" />
+                    <img src={kabrassugar} alt="Company logo" />
+                    <img src={kenyarailways} alt="Company logo" />
+                    <img src={mombasahospital} alt="Company logo" />
+                    <img src={embucounty} alt="Company logo" />
+                    <img src={familybank} alt="Company logo" />
                   </div>
                 </div>
               </div>
@@ -69,12 +79,12 @@ const About = () => {
                   <Link to="/services" className="view-services-btn">VIEW SERVICES</Link>
                 </div>
                 <div className="about-column">
-                  <img src={Image} alt="image" className="core-competencies-image" />
+                  <img src={services} alt="image" className="core-competencies-image" />
                 </div>
               </div>
               <div className="join-team-container">
                 <div className="careers-image">
-                  <img src={Image} alt="image" className="image" />
+                  <img src={team} alt="image" className="join-image" />
                 </div>
                 <div className="join-hero">
                   <h3>Join Our Team</h3>

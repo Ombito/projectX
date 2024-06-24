@@ -77,14 +77,14 @@ header p {
 }
 
 .intro {
-    background-color: #f9f9f9;
-    padding: 3rem 2rem;
+    padding: 3rem 8rem;
+    width: 75%;
+    margin: auto;
     text-align: left;
 }
 
 .intro-content {
     display: flex;
-    flex-wrap: wrap;
     gap: 2rem;
     justify-content: center;
 }
