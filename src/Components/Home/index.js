@@ -21,8 +21,8 @@ const Home = () => {
                     <source src={video} type="video/mp4" />
                 </video>
                 <header className="video-header">
-                    <h1>Elevate your business with Hazel Systems</h1>
-                    <p>Hazel Systems is a cutting-edge technology company specializing in system integration. Our mission is to streamline operations and enhance customer experiences by connecting disparate systems and ensuring seamless data flow.</p>
+                    <h1>Elevate your business with Milmax</h1>
+                    <p>Milmax is a cutting-edge technology company specializing in system integration. Our mission is to streamline operations and enhance customer experiences by connecting disparate systems and ensuring seamless data flow.</p>
                     <Link to="/contact"><button className="header__button">Contact Us</button></Link>
                 </header>
                 <div className="info-section">
@@ -45,7 +45,7 @@ const Home = () => {
                     <div className="intro-content">
                         <img src={homeServices} alt="Integration Solutions" />
                         <div>
-                            <p>At Hazel Systems, we specialize in providing cutting-edge system integration solutions to streamline your operations and enhance productivity. Our team of experts is dedicated to delivering customized services that meet your unique needs.</p>
+                            <p>At Milmax, we specialize in providing cutting-edge system integration solutions to streamline your operations and enhance productivity. Our team of experts is dedicated to delivering customized services that meet your unique needs.</p>
                             <p>Explore our wide range of services and discover how we can help you achieve seamless integration across your systems.</p>
                         </div>
                     </div>
@@ -99,11 +99,11 @@ const Home = () => {
                     <h2>Testimonials</h2>
                     <div className="testimonial-cards">
                         <div className="testimonial-card">
-                            <p>"Hazel Systems transformed our operations with their exceptional integration services. Highly recommend!"</p>
+                            <p>"Milmax transformed our operations with their exceptional integration services. Highly recommend!"</p>
                             <p><strong>- Alex Johnson, CEO of TechCorp</strong></p>
                         </div>
                         <div className="testimonial-card">
-                            <p>"The team at Hazel Systems is professional, knowledgeable, and always ready to help. Great experience!"</p>
+                            <p>"The team at Milmax is professional, knowledgeable, and always ready to help. Great experience!"</p>
                             <p><strong>- Maria Lopez, IT Manager at Innovate Inc.</strong></p>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ const Home = () => {
                         <div className="news-card">
                             <img src={image} alt="News 2" />
                             <h3>Industry Award</h3>
-                            <p>Hazel Systems has been recognized as a leader in system integration, receiving the prestigious XYZ Award.</p>
+                            <p>Milmax has been recognized as a leader in system integration, receiving the prestigious XYZ Award.</p>
                         </div>
                     </div>
                 </section>
