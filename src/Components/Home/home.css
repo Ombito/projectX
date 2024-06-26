@@ -1,0 +1,220 @@
+.home-container {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.video-background {
+    position: relative;
+    overflow: hidden;
+    height: 95vh;
+}
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+.video-header {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+.video-header h1 {
+    color: white;
+}
+.video-header p {
+    color: white;
+}
+.header__button {
+    background-color: #ff6600;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.header__button:hover {
+    background-color: #4caf50;
+}
+.info-section {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    text-align: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    width: 80%;
+}
+.info-section div {
+    color: #20123A;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.info-section h3 {
+    color: #20123A;
+}
+.home-hero-div {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+header {
+    margin-bottom: 2rem;
+}
+header h1 {
+    color: #2c3e50;
+}
+header p {
+    color: #34495e;
+}
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.image-gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.intro {
+    padding: 0 8rem;
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+.intro-content {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    text-align: center;
+}
+.intro-content img {
+    width: 100%;
+    height: 35vh;
+    border-radius: 8px;
+}
+.why-choose-us, .our-process, .testimonials, .latest-news, .our-partners, .case-studies {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+.why-choose-us h2, .our-process h2, .testimonials h2, .latest-news h2, .our-partners h2, .case-studies h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+}
+.reasons, .process-steps, .testimonial-cards, .news-cards, .partners-logos, .case-studies-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.reason, .process-step, .testimonial-card, .news-card, .partners-logos img, .case-study-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+.reason img, .process-step img, .news-card img, .case-study-card img {
+    width: 100%;
+    height: 20vh;
+    border-radius: 5px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+.reason h3, .process-step h3, .news-card h3, .case-study-card h3 {
+    margin: 1rem 0 0.5rem;
+    color: #2c3e50;
+}
+.reason p, .process-step p, .news-card p, .case-study-card p, .testimonial-card p {
+    color: #34495e;
+}
+.testimonial-card strong {
+    display: block;
+    margin-top: 0.5rem;
+    color: #2c3e50;
+}
+.partners-logos img {
+    width: 100%;
+    max-width: 150px;
+}
+.home-contact {
+    background-image: url('../../Assets/support-home.jpeg');
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.home-contact-text {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.home-contact-button {
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.home-contact-button:hover {
+    background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+    .video-header {
+        width: 100%;
+        top: 25%;
+    }
+    .video-background {
+        height: 190vh;
+    }
+    .info-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .intro-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        overflow-x: hidden;
+    }
+}

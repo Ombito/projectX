@@ -1,5 +1,6 @@
 .navbar {
-    background-color: #ff6600;
+    background-color: #20123A;
+    /* #ff6600; */
     height: 80px;
     display: flex;
     justify-content: center;
@@ -58,14 +59,14 @@
     transition: all 0.3s ease;
 }
 .cta-btn {
-    background-color: #2196f3;
+    background-color: #ff6600;;
     padding: auto 22px;
     margin-top: 8px;
     height: 80%;
     color: #fff;
     outline: none;
     border: none;
-    border-radius: 50px;
+    border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
     text-decoration: none;
