@@ -220,3 +220,23 @@ header p {
 }
 
 
+@media (max-width: 768px) {
+    .video-background {
+        height: 135vh;
+    }
+    .info-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .intro {
+        padding: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        overflow-x: hidden;
+    }
+}
