@@ -55,13 +55,7 @@
     color: black;
     width: 80%;
 }
-.info-section h3 {
-    margin: 10px 0;
-}
 
-.info-section p {
-    margin: 5px 0;
-}
 
 .home-hero-div {
     text-align: center;
@@ -208,3 +202,5 @@ header p {
 .home-contact-button:hover {
     background-color: #0056b3;
 }
+
+
