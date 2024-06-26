@@ -74,7 +74,7 @@ const About = () => {
               <div className="about-row">
                 <div className="about-column">
                   <h3>Core Competencies</h3>
-                  <p>With expertise in Hazel Systems excels in delivering tailored solutions that optimize business processes and drive efficiency.</p>
+                  <p>With great expertise, Milmax excels in delivering tailored solutions that optimize business processes and drive efficiency.</p>
                   <Link to="/services" className="view-services-btn">VIEW SERVICES</Link>
                 </div>
                 <div className="about-column">
@@ -88,7 +88,7 @@ const About = () => {
                 <div className="join-hero">
                   <h3>Join Our Team</h3>
                   <p className="paragraph">
-                    Join our dedicated team of professionals behind Hazel Systems. Our team
+                    Join our dedicated team of professionals behind Milmax. Our team
                     consists of experts with diverse backgrounds and extensive experience in
                     system integration, ensuring that we deliver superior solutions tailored
                     to our clients' needs.
