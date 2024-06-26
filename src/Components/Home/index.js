@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import { Link } from 'react-router-dom';
 import Partnership from '../Partnership';
 import video from '../../Assets/banner.mp4';
 import image from '../../Assets/aws.jpg';
@@ -23,6 +24,7 @@ const Home = () => {
                 <header className="video-header">
                     <h1>Elevate your business with Hazel Systems</h1>
                     <p>Hazel Systems is a cutting-edge technology company specializing in system integration. Our mission is to streamline operations and enhance customer experiences by connecting disparate systems and ensuring seamless data flow.</p>
+                    <Link to="/contact"><button className="header__button">Contact Us</button></Link>
                 </header>
                 <div className="info-section">
                     <div>

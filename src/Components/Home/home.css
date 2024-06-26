@@ -23,7 +23,7 @@
 }
 .video-header {
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -32,14 +32,26 @@
 }
 
 .video-header h1 {
-    font-size: 3rem;
     color: white;
 }
 
 .video-header p {
-    font-size: 1.5rem;
     color: white;
 }
+.header__button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .header__button:hover {
+    background-color: #0056b3;
+  }
 .info-section {
     display: flex;
     position: absolute;
@@ -68,12 +80,10 @@ header {
 }
 
 header h1 {
-    font-size: 3rem;
     color: #2c3e50;
 }
 
 header p {
-    font-size: 1.5rem;
     color: #34495e;
 }
 
