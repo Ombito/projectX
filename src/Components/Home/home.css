@@ -60,15 +60,21 @@
     transform: translateX(-50%);
     z-index: 2;
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
+    gap: 20px;
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     color: black;
     width: 80%;
 }
-
-
+.info-section div {
+    color: #20123A;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+.info-section h3 {
+    color: #20123A;
+}
 .home-hero-div {
     text-align: center;
     padding: 4rem 0;
