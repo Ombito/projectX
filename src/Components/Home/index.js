@@ -19,7 +19,6 @@ const Home = () => {
             <div className="video-background">
                 <video autoPlay muted loop id="background-video">
                     <source src={video} type="video/mp4" />
-                    Your browser does not support HTML5 video.
                 </video>
                 <header className="video-header">
                     <h1>Elevate your business with Hazel Systems</h1>
