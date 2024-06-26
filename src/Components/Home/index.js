@@ -21,10 +21,23 @@ const Home = () => {
                     Your browser does not support HTML5 video.
                 </video>
                 <header className="video-header">
-                    <h1>Welcome to Hazel Systems</h1>
-                    <p>Your trusted partner in system integration</p>
+                    <h1>Elevate your business with Hazel Systems</h1>
                     <p>Hazel Systems is a cutting-edge technology company specializing in system integration. Our mission is to streamline operations and enhance customer experiences by connecting disparate systems and ensuring seamless data flow.</p>
                 </header>
+                <div className="info-section">
+                    <div>
+                        <h3>Extensive Experience</h3>
+                        <p>Proven track record of successfully integrating technology systems for clients.</p>
+                    </div>
+                    <div>
+                        <h3>Customized Solutions</h3>
+                        <p>Tailored to specific requirements for unique client needs and objectives.</p>
+                    </div>
+                    <div>
+                        <h3>Cutting-edge Technology</h3>
+                        <p>Innovative solutions to help clients stay competitive in the digital age.</p>
+                    </div>
+                </div>
             </div>
             <div className="home-hero-div">
                 <section className="intro">
@@ -41,8 +54,8 @@ const Home = () => {
                     <div className="reasons">
                         <div className="reason">
                             <img src={quality} alt="Quality" />
-                            <h3>Quality Assurance</h3>
-                            <p>We ensure high-quality solutions through rigorous testing and quality control.</p>
+                            <h3>Customized System Integration Solutions</h3>
+                            <p>We offer tailored system integration solutions to meet specific client needs.</p>
                         </div>
                         <div className="reason">
                             <img src={homeTeam} alt="Experience" />
@@ -125,6 +138,10 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                <div className="home-contact">
+                    <p className="home-contact-text">Do you have any questions? Get in touch with us!</p>
+                    <button className="home-contact-button">CONTACT US</button>
+                </div>
             </div>
         </div>
     );
