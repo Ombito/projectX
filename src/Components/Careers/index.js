@@ -18,7 +18,7 @@ const Careers = () => {
     <div className="careers-container">
       <div className="careers-header">
         <h1>Join Our Team</h1>
-        <p>At Hazel Systems, we're always looking for talented individuals to join our dynamic team. Explore our current openings and apply today!</p>
+        <p>We are always looking for talented individuals to join our dynamic team. Explore our current openings and apply today!</p>
       </div>
       <div className="job-openings">
         <h2>Current Openings</h2>
