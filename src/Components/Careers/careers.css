@@ -81,8 +81,8 @@
     border-radius: 5px;
 }
 
-.submit-btn {
-    background-color: #4CAF50;
+.careers-btn {
+    background-color: #ff6600; 
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -91,8 +91,8 @@
     font-size: 1rem;
 }
 
-.submit-btn:hover {
-    background-color: #3e8e41;
+.careers-btn:hover {
+    background-color: #ff6601; 
 }
 
 @media (max-width: 768px) {

@@ -70,7 +70,7 @@ const Careers = () => {
               required
             />
           </div>
-          <button type="submit" className="submit-btn">Submit Application</button>
+          <button type="submit" className="careers-btn">Submit Application</button>
         </form>
       </div>
     </div>
