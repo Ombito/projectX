@@ -27,13 +27,13 @@
 
 .footer-section p {
     line-height: 1.6;
-    color: #bdc3c7;
+    color: white
 }
 
 .socials a {
     margin: 0 0.5rem;
     font-size: 1.5rem;
-    color: #bdc3c7;
+    color: white;
     transition: color 0.3s;
 }
 
@@ -52,7 +52,7 @@
 
 .links ul li a {
     text-decoration: none;
-    color: #bdc3c7;
+    color: white;
     transition: color 0.3s;
 }
 
@@ -81,7 +81,7 @@
 
 .footer-bottom p {
     margin: 0;
-    color: #bdc3c7;
+    color: white;
 }
 
 /* Responsive Styles */
