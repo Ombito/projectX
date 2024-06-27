@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Route , Routes } from 'react-router-dom';
 import './App.css';
 import Contact from './Components/Contact';
+import Careers from './Components/Careers';
 import Home from './Components/Home';
 import About from './Components/About';
 import Footer from './Components/Footer';
@@ -25,6 +26,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/partnership" element={<Partnership />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/careers" element={<Careers />} />
         <Route path="/blog" element={<Blog  blogsData={BLOG_API_URL} />} />
         <Route path="/notFound" element={<NotFound />} />
       </Routes>
