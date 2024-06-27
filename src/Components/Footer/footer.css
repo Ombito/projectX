@@ -22,7 +22,7 @@
 .footer-section h2,
 .footer-section h3 {
     margin-bottom: 1rem;
-    color: #f1c40f;
+    color: #ff6600; 
 }
 
 .footer-section p {
@@ -38,7 +38,7 @@
 }
 
 .socials a:hover {
-    color: #f1c40f;
+    color: #ff6600; 
 }
 
 .links ul {
@@ -57,7 +57,7 @@
 }
 
 .links ul li a:hover {
-    color: #f1c40f;
+    color: #ff6600; 
 }
 
 .contact-items {
@@ -69,7 +69,7 @@
 .contact-items svg {
     margin-right: 0.5rem;
     font-size: 1.2rem;
-    color: #f1c40f;
+    color: #ff6600; 
 }
 
 .footer-bottom {
