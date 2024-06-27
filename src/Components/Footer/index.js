@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="footer-section about">
                     <h2>Milmax</h2>
-                    <p>Milmax is a leading technology company specializing in system integration. We help businesses streamline their operations and improve productivity through seamless integration solutions.</p>
+                    <p>We help businesses streamline their operations and improve productivity through seamless integration solutions.</p>
                     <div className="socials">
                         <a href="#" aria-label="Facebook"><FaFacebook /></a>
                         <a href="#" aria-label="Twitter"><FaTwitter /></a>
@@ -31,7 +31,7 @@ const Footer = () => {
                     <h3>Contact Us</h3>
                     <div className="contact-items">
                         <FaPhoneAlt /> 
-                        <span>+123 456 7890</span>
+                        <span>+254 721 857 213</span>
                     </div>
                     <div className="contact-items">
                         <FaEnvelope /> 
