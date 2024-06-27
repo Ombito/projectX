@@ -7,8 +7,8 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-content">
                 <div className="footer-section about">
-                    <h2>Hazel Systems</h2>
-                    <p>Hazel Systems is a leading technology company specializing in system integration. We help businesses streamline their operations and improve productivity through seamless integration solutions.</p>
+                    <h2>Milmax</h2>
+                    <p>Milmax is a leading technology company specializing in system integration. We help businesses streamline their operations and improve productivity through seamless integration solutions.</p>
                     <div className="socials">
                         <a href="#" aria-label="Facebook"><FaFacebook /></a>
                         <a href="#" aria-label="Twitter"><FaTwitter /></a>
@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer-bottom">
-                <p>&copy; 2024 Hazel Systems. All Rights Reserved.</p>
+                <p>&copy; 2024 Milmax. All Rights Reserved.</p>
             </div>
         </footer>
     );
