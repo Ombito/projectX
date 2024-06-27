@@ -29,15 +29,15 @@ const Footer = () => {
                 </div>
                 <div className="footer-section contact">
                     <h3>Contact Us</h3>
-                    <div className="contact-item">
+                    <div className="contact-items">
                         <FaPhoneAlt /> 
                         <span>+123 456 7890</span>
                     </div>
-                    <div className="contact-item">
+                    <div className="contact-items">
                         <FaEnvelope /> 
                         <span>info@hazelsystems.com</span>
                     </div>
-                    <div className="contact-item">
+                    <div className="contact-items">
                         <FaMapMarkerAlt /> 
                         <span>123 Tech Street, Silicon Valley, CA</span>
                     </div>
