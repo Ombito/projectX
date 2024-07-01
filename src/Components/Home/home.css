@@ -64,7 +64,7 @@
 }
 .info-section div {
     color: #20123A;
-    background: rgba(255, 255, 255, 0.8);
+    background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 5px;
 }
@@ -162,13 +162,20 @@ header p {
     max-width: 150px;
 }
 .home-contact {
-    background-image: url('../../Assets/support-home.jpeg');
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../Assets/contact-banner1.jpeg');
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     object-fit: cover;
-    padding: 20px;
+    color: #fff;
     text-align: center;
-    color: white;
+    padding: 20px;
 }
 .home-contact-text {
     font-size: 1.5em;

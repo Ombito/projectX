@@ -4,6 +4,7 @@ import './App.css';
 import Contact from './Components/Contact';
 import Careers from './Components/Careers';
 import Home from './Components/Home';
+import Topbar from './Components/Topbar';
 import About from './Components/About';
 import Footer from './Components/Footer';
 import Partnership from './Components/Partnership';
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <Topbar />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

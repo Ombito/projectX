@@ -35,11 +35,11 @@ const Footer = () => {
                     </div>
                     <div className="contact-items">
                         <FaEnvelope /> 
-                        <span>info@milmaxsystems.com</span>
+                        <span>info@milmax-systems.com</span>
                     </div>
                     <div className="contact-items">
                         <FaMapMarkerAlt /> 
-                        <span>House Road, Westlands, Nairobi</span>
+                        <span>Tausi Road, Westlands, Nairobi</span>
                     </div>
                 </div>
             </div>

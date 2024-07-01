@@ -1,0 +1,45 @@
+.top-bar {
+    background-color: red !important;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    gap: 20px;
+}
+
+.contact-info span {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.contact-info .phone::before {
+    content: "📞";
+    margin-right: 5px;
+}
+
+.contact-info .email::before {
+    content: "✉️";
+    margin-right: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .contact-info {
+        width: 100%;
+    }
+}
+
+@media (max-width: 468px) {
+    .top-bar {
+        padding: 15px 10px;
+    }
+}
