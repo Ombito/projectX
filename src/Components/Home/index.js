@@ -12,7 +12,7 @@ import consultation from '../../Assets/consultation.png';
 import planning from '../../Assets/planning.jpeg';
 import implementation from '../../Assets/implementation.jpeg';
 import supportHome from '../../Assets/support-home.jpeg';
-
+  
 const Home = () => {
     return (
         <div className="home-container">

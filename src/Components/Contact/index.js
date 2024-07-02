@@ -19,9 +19,9 @@ const Contact = () => {
   return (
     <div className="contact-form-container">
       <h2>Get in Touch</h2>
-      <div className="contact-form">
+      <div className="contact-form-hero">
         <form className="get-in-touch" onSubmit={handleSubmit}>
-          <div className="form-group">
+          <div className="contact-form-group">
             <label htmlFor="name">Name:</label>
             <input
               type="text"
@@ -31,7 +31,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="form-group">
+          <div className="contact-form-group">
             <label htmlFor="email">Email:</label>
             <input
               type="email"
@@ -41,7 +41,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="form-group">
+          <div className="contact-form-group">
             <label htmlFor="message">Message:</label>
             <textarea
               id="message"
