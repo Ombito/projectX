@@ -101,7 +101,7 @@ const Services = () => {
         <h2>Frequently Asked Questions</h2>
         <div className="faq">
           <h3>What services do you offer?</h3>
-          <p>We offer a range of services including application services, business consulting, cloud and IT infrastructure, cybersecurity, data center services, network services, tech solutions, and system integration.</p>
+          <p>We offer a range of services including application services, business consulting, cloud and IT infrastructure, cybersecurity, data center services, network services, tech solutions, CCTV installations and system integration.</p>
         </div>
         <div className="faq">
           <h3>Are your services customizable?</h3>
@@ -109,7 +109,11 @@ const Services = () => {
         </div>
         <div className="faq">
           <h3>What industries do you specialize in?</h3>
-          <p>We specialize in serving a wide range of industries including technology, finance, healthcare, and retail among others. Our expertise allows us to adapt our solutions to various business environments.</p>
+          <p>We specialize in providing innovative solutions for businesses across various industries including technology, finance, healthcare, and retail among others. Our expertise allows us to adapt our solutions to various business environments.</p>
+        </div>
+        <div className="faq">
+          <h3>What is Milmax Systems' focus when providing solutions?</h3>
+          <p>Milmax systems focuses on customer satisfaction and innovative technology to deliver high quality customized solutions that help businesses thrive in the digital age.</p>
         </div>
         <div className="faq">
           <h3>Do you offer ongoing support?</h3>
