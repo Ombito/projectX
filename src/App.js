@@ -17,6 +17,17 @@ import Services from './Components/Services';
 function App() {
   const BLOG_API_URL = 'https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=12c980041394435e97d1b0c17450f7ab';
 
+  fetch("https://cyber-security-news.p.rapidapi.com/news/%7Blatimes%7D?latimes=%2Flatimes", {
+    headers: {
+      "X-RapidAPI-Key": "x-rapidapi-host: cyber-security-news.p.rapidapi.com",
+      "x-rapidapi-key": "6e61212b02msh9eda001a2a9360fp118e03jsn116b801d7fab"
+    }
+  })
+    .then(response => response.json())
+    .then(data => console.log(data))
+    .catch(error => console.error(error))
+
+
   return (
     <div className="App">
       <Topbar />

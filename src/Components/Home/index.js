@@ -6,12 +6,12 @@ import video from '../../Assets/banner.mp4';
 import image from '../../Assets/aws.jpg';
 import homeServices from '../../Assets/home-services.jpeg';
 import homeTeam from '../../Assets/hometeam.jpeg';
-import quality from '../../Assets/quality.jpeg';
+import quality from '../../Assets/automation.png';
 import support from '../../Assets/support.jpeg';
-import consultation from '../../Assets/consultation.png';
-import planning from '../../Assets/planning.jpeg';
+import consultation from '../../Assets/consultation2.png';
+import planning from '../../Assets/planning2.jpeg';
 import implementation from '../../Assets/implementation.jpeg';
-import supportHome from '../../Assets/support-home.jpeg';
+import supportHome from '../../Assets/support3.png';
   
 const Home = () => {
     return (
@@ -31,12 +31,12 @@ const Home = () => {
                         <p>Proven track record of successfully integrating technology systems for clients.</p>
                     </div>
                     <div>
-                        <h3>Customized Solutions</h3>
-                        <p>Tailored to specific requirements for unique client needs and objectives.</p>
+                        <h3>Reliability</h3>
+                        <p>We are committed to delivering projects on time and within budget without compromising on quality.</p>
                     </div>
                     <div>
-                        <h3>Cutting-edge Technology</h3>
-                        <p>Innovative solutions to help clients stay competitive in the digital age.</p>
+                        <h3>Innovation Driven</h3>
+                        <p>We stay ahead of the curve incorporating the latest technologies and trends into our solutions.</p>
                     </div>
                 </div>
             </div>
@@ -45,8 +45,7 @@ const Home = () => {
                     <div className="intro-content">
                         <img src={homeServices} alt="Integration Solutions" />
                         <div>
-                            <p>At Milmax, we specialize in providing cutting-edge system integration solutions to streamline your operations and enhance productivity. Our team of experts is dedicated to delivering customized services that meet your unique needs.</p>
-                            <p>Explore our wide range of services and discover how we can help you achieve seamless integration across your systems.</p>
+                            <p>We specialize in providing cutting-edge system integration solutions to streamline business operations and enhance productivity. Founded with a vision to revolutionize the technology landscape, we specialize in comprehensive system integration and an array of technical services tailored to meet the dynamic needs of our clients. Our goal is to empower businesses by seamlessly integrating innovative technology with strategic insights to drive growth and efficiency. Explore our wide range of services and discover how we can help you achieve seamless integration across your systems.</p>
                         </div>
                     </div>
                 </section>
@@ -55,8 +54,8 @@ const Home = () => {
                     <div className="reasons">
                         <div className="reason">
                             <img src={quality} alt="Quality" />
-                            <h3>Customized System Integration Solutions</h3>
-                            <p>We offer tailored system integration solutions to meet specific client needs.</p>
+                            <h3>Automation Tools</h3>
+                            <p>We offer task automation tools to streamline processes and increase productivity by reducing manual intervention.</p>
                         </div>
                         <div className="reason">
                             <img src={homeTeam} alt="Experience" />
@@ -65,8 +64,8 @@ const Home = () => {
                         </div>
                         <div className="reason">
                             <img src={support} alt="Support" />
-                            <h3>24/7 Support</h3>
-                            <p>Our support team is available around the clock to assist you with any issues.</p>
+                            <h3>Customer Support</h3>
+                            <p>Our dedicated support team is available around the clock to assist you with any issues.</p>
                         </div>
                     </div>
                 </section>
@@ -90,7 +89,7 @@ const Home = () => {
                         </div>
                         <div className="process-step">
                             <img src={supportHome} alt="Support" />
-                            <h3>Support</h3>
+                            <h3>24/7 Support</h3>
                             <p>We provide ongoing support to ensure everything runs smoothly post-integration.</p>
                         </div>
                     </div>
@@ -100,11 +99,11 @@ const Home = () => {
                     <div className="testimonial-cards">
                         <div className="testimonial-card">
                             <p>"Milmax transformed our operations with their exceptional integration services. Highly recommend!"</p>
-                            <p><strong>- Alex Johnson, CEO of TechCorp</strong></p>
+                            <p><strong>- David Mwendwa CEO of Computer Revolution</strong></p>
                         </div>
                         <div className="testimonial-card">
                             <p>"The team at Milmax is professional, knowledgeable, and always ready to help. Great experience!"</p>
-                            <p><strong>- Maria Lopez, IT Manager at Innovate Inc.</strong></p>
+                            <p><strong>- Susan Karanja, IT Manager at Innovate Inc.</strong></p>
                         </div>
                     </div>
                 </section>
@@ -140,7 +139,7 @@ const Home = () => {
                     </div>
                 </section>
                 <div className="home-contact">
-                    <p className="home-contact-text">Do you have any questions? Get in touch with us!</p>
+                    <p className="home-contact-text">Ready to take your business to the next level? Get in touch with us.</p>
                     <button className="home-contact-button">CONTACT US</button>
                 </div>
             </div>
