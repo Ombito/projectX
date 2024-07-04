@@ -44,9 +44,7 @@ const Home = () => {
                 <section className="intro">
                     <div className="intro-content">
                         <img src={homeServices} alt="Integration Solutions" />
-                        <div>
-                            <p>We specialize in providing cutting-edge system integration solutions to streamline business operations and enhance productivity. Founded with a vision to revolutionize the technology landscape, we specialize in comprehensive system integration and an array of technical services tailored to meet the dynamic needs of our clients. Our goal is to empower businesses by seamlessly integrating innovative technology with strategic insights to drive growth and efficiency. Explore our wide range of services and discover how we can help you achieve seamless integration across your systems.</p>
-                        </div>
+                        <p>We specialize in providing cutting edge system integration solutions to streamline business operations and enhance productivity. Founded with a vision to revolutionize the technology landscape, we specialize in comprehensive system integration and an array of technical services tailored to meet the dynamic needs of our clients. Our goal is to empower businesses by seamlessly integrating innovative technology with strategic insights to drive growth and efficiency. Explore our wide range of services and discover how we can help you achieve seamless integration across your systems.</p>
                     </div>
                 </section>
                 <section className="why-choose-us">
@@ -107,6 +105,7 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
+                <Partnership />
                 <section className="latest-news">
                     <h2>Latest News</h2>
                     <div className="news-cards">
@@ -122,7 +121,6 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <Partnership />
                 <section className="case-studies">
                     <h2>Case Studies</h2>
                     <div className="case-studies-cards">
