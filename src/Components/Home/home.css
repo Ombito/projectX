@@ -109,11 +109,9 @@ header p {
     display: flex;
     height: 30vh;
     gap: 2rem;
-    /* flex: 1; */
     line-height: 2em;
     justify-content: center;
     text-align: center;
-    /* align-items: center; */
     overflow: hidden;
 }
 .intro-content img {
