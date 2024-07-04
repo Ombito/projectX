@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Partnership from '../Partnership';
 import video from '../../Assets/banner.mp4';
 import image from '../../Assets/aws.jpg';
-import homeServices from '../../Assets/home-services.jpeg';
+import homeServices from '../../Assets/engineer.jpeg';
 import homeTeam from '../../Assets/hometeam.jpeg';
 import quality from '../../Assets/automation.png';
 import support from '../../Assets/support.jpeg';
