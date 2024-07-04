@@ -121,21 +121,6 @@ const Home = () => {
                         </div>
                     </div>
                 </section>
-                <section className="case-studies">
-                    <h2>Case Studies</h2>
-                    <div className="case-studies-cards">
-                        <div className="case-study-card">
-                            <img src={image} alt="Case Study 1" />
-                            <h3>Case Study 1</h3>
-                            <p>Learn how we helped Company A achieve seamless integration and improved efficiency.</p>
-                        </div>
-                        <div className="case-study-card">
-                            <img src={image} alt="Case Study 2" />
-                            <h3>Case Study 2</h3>
-                            <p>Discover the solutions we provided for Company B to overcome their integration challenges.</p>
-                        </div>
-                    </div>
-                </section>
                 <div className="home-contact">
                     <p className="home-contact-text">Ready to take your business to the next level? Get in touch with us.</p>
                     <button className="home-contact-button">CONTACT US</button>
