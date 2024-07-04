@@ -102,7 +102,7 @@ const Home = () => {
                             <p><strong>- David Mwendwa CEO of Computer Revolution</strong></p>
                         </div>
                         <div className="testimonial-card">
-                            <p>"The team at Milmax is professional, knowledgeable, and always ready to help. Great experience!"</p>
+                            <p>"The team at Milmax is professional, knowledgeable, and always ready to help."</p>
                             <p><strong>- Susan Karanja, IT Manager at Innovate Inc.</strong></p>
                         </div>
                     </div>
