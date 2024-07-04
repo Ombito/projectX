@@ -174,14 +174,11 @@ header p {
 .home-contact {
     display: flex;
     flex-direction: column;
-    background-image: url('../../Assets/contact-banner1.jpeg');
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 500px;
+    background: url('../../Assets/contact-banner1.jpeg') no-repeat center center;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    height: 500px;
+    align-items: center;
     color: #fff;
     text-align: center;
     padding: 20px;
