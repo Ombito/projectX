@@ -117,13 +117,9 @@ header p {
     overflow: hidden;
 }
 .intro-content img {
-    /* width: 100%;
-    height: 35vh; */
     border-radius: 2px;
-width: auto;
-    /* max-width: 100%; */
-            /* height: 100%; */
-            object-fit: cover;
+    width: auto;
+    object-fit: cover;
 }
 .intro-content p {
     align-items: center;
