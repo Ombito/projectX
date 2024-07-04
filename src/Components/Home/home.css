@@ -229,6 +229,7 @@ header p {
     .intro-content {
         display: flex;
         flex-direction: column;
+        height: fit-content;
     }
     .intro {
         padding: 0;
