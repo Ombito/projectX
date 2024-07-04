@@ -4,6 +4,7 @@
     padding: 2rem 1rem;
     width: 80%;
     margin: auto;
+    overflow-x: hidden;
 }
 .about-header {
     text-align: center;
@@ -46,7 +47,7 @@
 }
 .clients-logos {
     display: flex;
-    overflow: hidden;
+    overflow-x: hidden;
     position: relative;
 }
 .logo-strip {
@@ -159,10 +160,6 @@
     align-items: center;
     margin: 0 auto;
 }
-.get-in-touch {
-    width: 100%;
-    max-width: 500px;
-}
 .form-group {
     margin-bottom: 1rem;
 }
@@ -202,8 +199,9 @@
 
 @media (max-width: 768px) {
     .about-container {
-        width: 100%;
         margin: auto;
+        width: auto;
+        overflow-x: hidden;
     }
     .about-column {
         padding: 0px;
@@ -245,8 +243,8 @@
         height: 60px;
         margin-right: 0.5rem;
     }
-.about-container {
-    overflow: hidden;
+    .about-container {
+    overflow-x: hidden;
     }
     .about-header h1 {
         font-size: 2rem;

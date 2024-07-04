@@ -100,24 +100,28 @@ const Services = () => {
       <div className="faq-section">
         <h2>Frequently Asked Questions</h2>
         <div className="faq">
-          <h3>What services do you offer?</h3>
-          <p>We offer a range of services including application services, business consulting, cloud and IT infrastructure, cybersecurity, data center services, network services, tech solutions, and system integration.</p>
+          <h3>1. What services do you offer?</h3>
+          <p>We offer a range of services including application services, business consulting, cloud and IT infrastructure, cybersecurity, data center services, network services, tech solutions, CCTV installations, video conferencing and system integration.</p>
         </div>
         <div className="faq">
-          <h3>Are your services customizable?</h3>
+          <h3>2. Are your services customizable?</h3>
           <p>Yes, we tailor our solutions to meet the specific needs and requirements of each client. Whether you need a complete overhaul or targeted improvements, we can help.</p>
         </div>
         <div className="faq">
-          <h3>What industries do you specialize in?</h3>
-          <p>We specialize in serving a wide range of industries including technology, finance, healthcare, and retail among others. Our expertise allows us to adapt our solutions to various business environments.</p>
+          <h3>3. What industries do you specialize in?</h3>
+          <p>We specialize in providing innovative solutions for businesses across various industries including technology, finance, healthcare, and retail among others. Our expertise allows us to adapt our solutions to various business environments.</p>
         </div>
         <div className="faq">
-          <h3>Do you offer ongoing support?</h3>
+          <h3>4. What is Milmax Systems' focus when providing solutions?</h3>
+          <p>Milmax systems focuses on customer satisfaction and innovative technology to deliver high quality customized solutions that help businesses thrive in the digital age.</p>
+        </div>
+        <div className="faq">
+          <h3>5. Do you offer ongoing support?</h3>
           <p>Absolutely, we provide comprehensive support and maintenance services to ensure that your systems continue to operate at peak performance.</p>
         </div>
         <div className="faq">
-          <h3>How can I get in touch?</h3>
-          <p>You can reach us through the contact form, or email us at contact@Milmaxsystems.com</p>
+          <h3>6 .How can I get in touch?</h3>
+          <p>You can reach us through the contact form or email us at contact@milmaxsystems.com</p>
         </div>
       </div>
     </div>

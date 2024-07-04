@@ -50,6 +50,7 @@
 }
 .info-section {
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -63,6 +64,7 @@
     width: 80%;
 }
 .info-section div {
+    flex: 1;
     color: #20123A;
     background: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -105,14 +107,21 @@ header p {
 }
 .intro-content {
     display: flex;
+    height: 30vh;
     gap: 2rem;
+    line-height: 2em;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 .intro-content img {
-    width: 100%;
-    height: 35vh;
-    border-radius: 8px;
+    border-radius: 2px;
+    width: auto;
+    object-fit: cover;
+}
+.intro-content p {
+    align-items: center;
+    text-align: center;
 }
 .why-choose-us, .our-process, .testimonials, .latest-news, .our-partners, .case-studies {
     padding: 3rem 2rem;
@@ -146,11 +155,12 @@ header p {
     border-radius: 3px;
 }
 .reason h3, .process-step h3, .news-card h3, .case-study-card h3 {
-    margin: 1rem 0 0.5rem;
+    margin: 0;
     color: #2c3e50;
 }
 .reason p, .process-step p, .news-card p, .case-study-card p, .testimonial-card p {
     color: #34495e;
+    margin-top: 5px;
 }
 .testimonial-card strong {
     display: block;
@@ -211,17 +221,19 @@ header p {
     .info-section {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        align-items: center;
+        margin: 0;
     }
     .intro-content {
         display: flex;
         flex-direction: column;
+        height: fit-content;
     }
     .intro {
         padding: 0;
-        width: 100%;
-        margin: 0;
-        padding: 0 10px;
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
         overflow-x: hidden;
     }
 }

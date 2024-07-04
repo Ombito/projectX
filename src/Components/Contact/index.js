@@ -4,6 +4,7 @@ import './contact.css';
 
 const Contact = () => {
   const [name, setName] = useState('');
+  const [company, setCompany] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
 
@@ -11,6 +12,7 @@ const Contact = () => {
     e.preventDefault();
 
     console.log('Name:', name);
+    console.log('Company:', company);
     console.log('Email:', email);
     console.log('Message:', message);
   };
@@ -19,32 +21,46 @@ const Contact = () => {
   return (
     <div className="contact-form-container">
       <h2>Get in Touch</h2>
-      <div className="contact-form">
+      <div className="contact-form-hero">
         <form className="get-in-touch" onSubmit={handleSubmit}>
-          <div className="form-group">
+          <div className="contact-form-group">
             <label htmlFor="name">Name:</label>
             <input
               type="text"
               id="name"
+              placeholder="Full Name"
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
             />
           </div>
-          <div className="form-group">
-            <label htmlFor="email">Email:</label>
+          <div className="contact-form-group">
+            <label htmlFor="company">Company Name:</label>
+            <input
+              type="text"
+              id="company"
+              placeholder="Company Name"
+              value={company}
+              onChange={(e) => setCompany(e.target.value)}
+              required
+            />
+          </div>
+          <div className="contact-form-group">
+            <label htmlFor="email">Email Address:</label>
             <input
               type="email"
               id="email"
+              placeholder="Email Address"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
             />
           </div>
-          <div className="form-group">
+          <div className="contact-form-group">
             <label htmlFor="message">Message:</label>
             <textarea
               id="message"
+              placeholder="Type your message here"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
               required
@@ -57,7 +73,7 @@ const Contact = () => {
         <div className="contact-details">
           <h2>Contact Details</h2>
           <p>Email: <a href="mailto:milmax-systems@gmail.com">info@milmaxsystems.com</a></p>
-          <p>Phone: +254 (721) 857-213</p>
+          <p>Phone: +254 721 857 213</p>
           <p>Office Hours: Monday - Friday, 9:00 AM - 5:00 PM</p>
         </div>
       </div>
