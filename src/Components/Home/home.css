@@ -233,3 +233,13 @@ header p {
         overflow-x: hidden;
     }
 }
+
+@media screen and (min-width: 769px) and (max-width: 985px){
+    .video-header {
+        width: 100%;
+        top: 25%;
+    }
+    .video-background {
+        height: 110vh;
+    }
+}
