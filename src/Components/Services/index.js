@@ -101,7 +101,7 @@ const Services = () => {
         <h2>Frequently Asked Questions</h2>
         <div className="faq">
           <h3>1. What services do you offer?</h3>
-          <p>We offer a range of services including application services, business consulting, cloud and IT infrastructure, cybersecurity, data center services, network services, tech solutions, CCTV installations and system integration.</p>
+          <p>We offer a range of services including application services, business consulting, cloud and IT infrastructure, cybersecurity, data center services, network services, tech solutions, CCTV installations, video conferencing and system integration.</p>
         </div>
         <div className="faq">
           <h3>2. Are your services customizable?</h3>
@@ -121,7 +121,7 @@ const Services = () => {
         </div>
         <div className="faq">
           <h3>6 .How can I get in touch?</h3>
-          <p>You can reach us through the contact form, or email us at contact@Milmaxsystems.com</p>
+          <p>You can reach us through the contact form or email us at contact@milmaxsystems.com</p>
         </div>
       </div>
     </div>
