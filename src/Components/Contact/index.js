@@ -1,30 +1,21 @@
 import React, { useState } from 'react';
 import './contact.css';
-import ReCAPTCHA from 'react-google-recaptcha';
 
 const Contact = () => {
   const [name, setName] = useState('');
   const [company, setCompany] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-  const [captchaValue, setCaptchaValue] = useState(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (captchaValue) {
-      console.log('Name:', name);
-      console.log('Company:', company);
-      console.log('Email:', email);
-      console.log('Message:', message);
-    } else {
-      alert('Please complete the reCAPTCHA');
-    }
+    console.log('Name:', name);
+    console.log('Company:', company);
+    console.log('Email:', email);
+    console.log('Message:', message);
   };
 
-  const handleCaptchaChange = (value) => {
-    setCaptchaValue(value);
-  };
 
   return (
     <div className="contact-form-container">
@@ -74,10 +65,6 @@ const Contact = () => {
               required
             ></textarea>
           </div>
-          <ReCAPTCHA
-            sitekey="6LcnjAgqAAAAAOgaj4U3pZOFgGfw1r8jr8u92yTa"
-            onChange={handleCaptchaChange}
-          />
           <button type="submit" className="submit-btn">
             Send Message
           </button>
