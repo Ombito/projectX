@@ -22,7 +22,7 @@ const Home = () => {
                 </video>
                 <header className="video-header">
                     <h1>Elevate your business with Milmax</h1>
-                    <p>Milmax is a cutting-edge technology company specializing in system integration. Our mission is to streamline operations and enhance customer experiences by connecting disparate systems and ensuring seamless data flow.</p>
+                    <p>Milmax is an advanced technology company specializing in system integration. Our mission is to streamline operations and enhance customer experiences by connecting disparate systems and ensuring seamless data flow.</p>
                     <Link to="/contact"><button className="header__button">Contact Us</button></Link>
                 </header>
                 <div className="info-section">
